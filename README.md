@@ -46,7 +46,9 @@ and a different amplitude function.
 ### Fork.m 
 ```Fork()``` contains a standard instrument style, tuning fork. This style, or function, can be easily 
 used by ```Tone()``` function. Just replace ```@GuitarMe```, the function handle of ```GuitarMe()``` 
-or ```@GuitarRy``` by ```@Fork``` without any other modifications. 
+or ```@GuitarRy``` by ```@Fork``` without any other modifications. What's more, other instrument can 
+play the same role as tuning fork easily, as long as you have timbre and amplitude function of the 
+instrument. 
 
 中文README： 
 委屈读者先看英文了QAQ。 
